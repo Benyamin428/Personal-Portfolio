@@ -1,0 +1,37 @@
+.navbar {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar__logo {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .navbar__logo-color-split {
+        color: #D9BEA5;
+    }
+
+    .navbar__toggle-button {
+        .navbar__toggle-button-top {
+            background: #fff;
+            height: 1px;
+            width: 25px;
+        }
+
+        .navbar__toggle-button-bottom {
+            background: #fff;
+            height: 1px;
+            width: 20px;
+            position: relative;
+            top: 7px;
+        }
+    }
+}
