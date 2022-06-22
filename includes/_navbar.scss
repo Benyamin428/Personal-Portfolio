@@ -1,7 +1,7 @@
 @use "variables" as *;
 
 .navbar {
-    padding: 3%;
+    padding: 5% 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 1.2rem;
-        color: #fff;
+        color: $primary-font-color;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;

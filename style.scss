@@ -1,5 +1,6 @@
 @use "includes/variables" as *;
 @use "includes/navbar";
+@use "includes/about";
 
 * {
     background: $background-color;
@@ -7,3 +8,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
