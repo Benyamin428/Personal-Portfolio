@@ -60,19 +60,6 @@
   font-size: 1rem;
 }
 
-* {
-  background: #2C2A2A;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  padding-left: 7%;
-  padding-right: 7%;
-}
-
 .portfolio {
   padding-top: 2rem;
   padding-bottom: rem;
@@ -134,4 +121,17 @@
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
   }
+}
+
+* {
+  background: #2C2A2A;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
 }

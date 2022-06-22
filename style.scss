@@ -1,6 +1,7 @@
 @use "includes/variables" as *;
 @use "includes/navbar";
 @use "includes/about";
+@use "includes/portfolio";
 
 * {
     background: $background-color;
@@ -15,84 +16,4 @@
     padding-right: 7%;
 }
 
-.portfolio {
-
-    padding-top: 2rem;
-    padding-bottom: rem;
-
-    .portfolio__title {
-        padding-top: 1rem;
-        padding-bottom: 3rem;
-        text-transform: uppercase;
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.8rem;
-    }
-
-    .fa-arrow-turn-down {
-        font-size: 1.2rem;
-        padding: 0.7rem;
-    }
-
-    .portfolio__project-container {
-
-        .portfolio__project {
-
-            .portfolio__project-image {
-                width: 100%;
-            }
-
-            .portfolio__project-title {
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-                text-transform: uppercase;
-                font-family: $primary-font;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 1.3rem;
-            }
-
-            .portfolio__project-icons {
-                float: right;
-                position: relative;
-                top: -7px;
-            }
-
-            .portfolio__project-icon {
-                background: $tag-background;
-                border-radius: 50%;
-                padding: 0.7rem;
-            }
-
-            .portolio__project-seperator {
-                color: $seperator-color;
-                width: 5rem;
-            }
-
-            .portfolio__project-tags {
-
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-
-                .portfolio__project-tag-name {
-                    display: inline;
-                    background: $tag-background;
-                    text-transform: uppercase;
-                    font-family: $secondary-font;
-                    padding: 0.3rem 1rem;
-                }
-            }
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .portfolio__project-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 1rem;
-        }
-    }
-}
 
