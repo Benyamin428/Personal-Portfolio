@@ -35,17 +35,17 @@
   top: 7px;
 }
 
-.about {
+.banner {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.about .about__title {
+.banner .banner__title {
   font-family: "Cormorant", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
 }
-.about .about__seperator {
+.banner .banner__seperator {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   color: #D9BEA5;
@@ -53,7 +53,7 @@
   width: 8rem;
   height: 5px;
 }
-.about .about__paragraph {
+.banner .banner__paragraph {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 200;
