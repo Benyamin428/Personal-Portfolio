@@ -1,10 +1,5 @@
+@use "includes/variables" as *;
 @use "includes/navbar";
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap');
-
-$background-color: #272643;
-
-$primary-font: 'Cormorant', serif;
 
 * {
     background: $background-color;

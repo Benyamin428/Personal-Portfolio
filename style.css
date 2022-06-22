@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap");
-* {
-  background: #272643;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   padding: 3%;
   display: flex;
@@ -25,6 +18,10 @@
 .navbar .navbar__logo-color-split {
   color: #D9BEA5;
 }
+.navbar .navbar__toggle-button {
+  position: relative;
+  top: -4px;
+}
 .navbar .navbar__toggle-button .navbar__toggle-button-top {
   background: #fff;
   height: 1px;
@@ -36,4 +33,11 @@
   width: 20px;
   position: relative;
   top: 7px;
+}
+
+* {
+  background: #272643;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

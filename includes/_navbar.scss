@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .navbar {
     padding: 3%;
     display: flex;
@@ -20,6 +22,10 @@
     }
 
     .navbar__toggle-button {
+
+        position: relative;
+        top: -4px;
+
         .navbar__toggle-button-top {
             background: #fff;
             height: 1px;
