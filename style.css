@@ -153,11 +153,13 @@
 }
 @media screen and (min-width: 768px) {
   .about .about__container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: grid;
-    grid-template-areas: "title image" "text image" "text image";
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title title image" "text text image";
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 6rem 100%;
-    gap: 2rem;
+    gap: 2.5rem;
   }
   .about .about__container .about__title-wrapper {
     grid-area: title;
@@ -169,6 +171,9 @@
     grid-area: text;
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .about .about__container .about-seperator {
+    margin-bottom: 0;
   }
 }
 
