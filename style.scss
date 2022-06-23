@@ -2,6 +2,7 @@
 @use "includes/navbar";
 @use "includes/banner";
 @use "includes/portfolio";
+@use "includes/about";
 
 * {
     background: $background-color;
@@ -15,5 +16,6 @@
     padding-left: 7%;
     padding-right: 7%;
 }
+
 
 
