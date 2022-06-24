@@ -144,8 +144,9 @@
   font-weight: 400;
   font-size: 1.8rem;
 }
-.about .about__container .about-seperator {
+.about .about__container .about__seperator {
   color: #D9BEA5;
+  background: #D9BEA5;
   width: 3rem;
   margin-bottom: 3rem;
 }
@@ -159,13 +160,44 @@
   font-size: 1rem;
   font-weight: 200;
 }
+.about .about__container .about__sub-title {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.about .about__container .about__list {
+  background: none !important;
+  border: none !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "Inter", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+}
+.about .about__container .about__list .about__list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem !important;
+  font-weight: 200 !important;
+}
+.about .about__container .about__list .about__list-button {
+  padding: 0 !important;
+}
+.about .about__container .about__section-seperator {
+  background: #fff;
+}
 @media screen and (min-width: 768px) {
   .about .about__container {
     padding: 3% 10%;
     display: grid;
-    grid-template-areas: "title image" "text image";
+    grid-template-areas: "title image" "text image" "experience interests";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 6rem 100%;
+    grid-template-rows: 6rem 100% 100%;
     gap: 2.5rem;
   }
   .about .about__container .about__title-wrapper {
@@ -180,8 +212,14 @@
     padding-top: 0;
     padding-bottom: 0;
   }
-  .about .about__container .about-seperator {
+  .about .about__container .about__seperator {
     margin-bottom: 0;
+  }
+  .about .about__container .about__experience {
+    grid-area: experience;
+  }
+  .about .about__container .about__interests {
+    grid-area: interests;
   }
 }
 

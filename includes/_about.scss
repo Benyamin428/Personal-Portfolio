@@ -16,8 +16,9 @@
             font-size: 1.8rem;
         }
     
-        .about-seperator {
+        .about__seperator {
             color: $seperator-color;
+            background: $seperator-color;
             width: 3rem;
             margin-bottom: 3rem;
         }
@@ -33,6 +34,44 @@
             font-size: 1rem;
             font-weight: 200;
         }
+
+        .about__sub-title {
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+
+        .about__list {
+
+            background: none !important;
+            border: none !important;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-family: $secondary-font !important;
+            font-style: normal !important;
+            font-weight: 200 !important;
+            font-size: 0.8rem !important;
+
+
+            .about__list-item {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 0.8rem !important;
+                font-weight: 200 !important;
+            }
+
+            .about__list-button {
+                padding: 0 !important;
+            }
+        }
+
+        .about__section-seperator {
+            background: #fff;
+        }
     }
 
     @media screen and (min-width: 768px) {
@@ -41,9 +80,10 @@
             display: grid;
             grid-template-areas:
                 "title image"
-                "text image";
+                "text image"
+                "experience interests";
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 6rem 100%;
+            grid-template-rows: 6rem 100% 100%;
             gap: 2.5rem;
 
             .about__title-wrapper {
@@ -61,8 +101,16 @@
                 padding-bottom: 0;
             }
 
-            .about-seperator {
+            .about__seperator {
                 margin-bottom: 0;
+            }
+
+            .about__experience {
+                grid-area: experience;
+            }
+
+            .about__interests {
+                grid-area: interests;
             }
 
         }
