@@ -1,0 +1,20 @@
+@use "variables" as *;
+
+.contact {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .contact__header {
+        font-family: $primary-font;
+        font-size: 5rem;
+    }
+
+    .contact__button {
+        padding: 1rem 5rem;
+        font-size: 1rem;
+        font-family: $secondary-font;
+        text-transform: uppercase;
+        border: 1px solid #D9BEA5;
+    }
+}

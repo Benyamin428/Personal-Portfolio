@@ -223,6 +223,23 @@
   }
 }
 
+.contact {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contact .contact__header {
+  font-family: "Cormorant", serif;
+  font-size: 5rem;
+}
+.contact .contact__button {
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #D9BEA5;
+}
+
 * {
   background: #2C2A2A;
   color: #fff;
