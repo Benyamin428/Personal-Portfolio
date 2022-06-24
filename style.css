@@ -1,15 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&family=Inter:wght@200;400&display=swap");
 .navbar {
-  padding: 5% 7%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 5% 7% !important;
+  font-family: "Cormorant", serif;
 }
 .navbar .navbar__logo {
-  font-family: "Cormorant", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.2rem;
+  font-family: "Cormorant", serif;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -17,6 +15,16 @@
 }
 .navbar .navbar__logo-color-split {
   color: #D9BEA5;
+}
+.navbar .navbar-nav .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 .navbar .navbar__toggle-button {
   position: relative;
@@ -185,7 +193,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.web-container {
   padding-left: 7%;
   padding-right: 7%;
 }
