@@ -226,7 +226,7 @@
 .contact {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 .contact .contact__header {
   font-family: "Cormorant", serif;
@@ -251,4 +251,21 @@
 .web-container {
   padding-left: 7%;
   padding-right: 7%;
+}
+
+.footer {
+  background: #3B3636;
+  padding: 2rem;
+}
+.footer .footer__socials {
+  background: #3B3636;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer__socials .footer__socials-icon {
+  background: #453F3F;
+  padding: 1rem;
+  margin: 0.3rem;
+  border-radius: 50%;
+  color: #D9BEA5;
 }

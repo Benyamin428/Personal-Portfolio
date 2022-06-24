@@ -18,5 +18,22 @@
     padding-right: 7%;
 }
 
+.footer {
+    background: #3B3636;
+    padding: 2rem;
 
+    .footer__socials {
+        background: #3B3636;
+        display: flex;
+        justify-content: center;
+
+        .footer__socials-icon {
+            background: #453F3F;
+            padding: 1rem;
+            margin: 0.3rem;
+            border-radius: 50%;
+            color: #D9BEA5;
+        }
+    }
+}
 
