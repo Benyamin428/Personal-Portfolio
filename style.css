@@ -113,7 +113,7 @@
   padding: 0.7rem;
 }
 .portfolio .portfolio__project-container .portfolio__project .portolio__project-seperator {
-  color: #D9BEA5;
+  background: #D9BEA5;
   width: 5rem;
 }
 .portfolio .portfolio__project-container .portfolio__project .portfolio__project-tags {
@@ -202,7 +202,7 @@
     display: grid;
     grid-template-areas: "title image" "text image" "experience interests";
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 6rem 100% 100%;
+    grid-template-rows: 6rem 1fr 1fr;
     gap: 2.5rem;
   }
   .about .about__container .about__title-wrapper {
