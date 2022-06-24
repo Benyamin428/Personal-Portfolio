@@ -37,13 +37,12 @@
 
     @media screen and (min-width: 768px) {
         .about__container {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
+            padding: 3% 10%;
             display: grid;
             grid-template-areas:
-                "title title image"
-                "text text image";
-            grid-template-columns: 1fr 1fr 1fr;
+                "title image"
+                "text image";
+            grid-template-columns: 1fr 1fr;
             grid-template-rows: 6rem 100%;
             gap: 2.5rem;
 
@@ -53,6 +52,7 @@
 
             .about__image {
                 grid-area: image;
+                padding: inherit;
             }
 
             .about__text-wrapper {
