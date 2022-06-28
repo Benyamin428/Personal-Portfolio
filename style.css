@@ -26,6 +26,9 @@
   font-size: 1rem;
   letter-spacing: 1px;
 }
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #D9BEA5;
+}
 .navbar .navbar__toggle-button {
   position: relative;
   top: -4px;
@@ -71,6 +74,14 @@
   font-style: normal;
   font-weight: 200;
   font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .banner .banner__title {
+    font-size: 6rem;
+  }
+  .banner .banner__paragraph {
+    width: 50%;
+  }
 }
 
 .portfolio {
@@ -198,12 +209,15 @@
 }
 @media screen and (min-width: 768px) {
   .about .about__container {
-    padding: 3% 10%;
+    padding: 0 10%;
     display: grid;
     grid-template-areas: "title image" "text image" "experience interests";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6rem 1fr 1fr;
     gap: 2.5rem;
+  }
+  .about .about__container .about__title {
+    font-size: 2.5rem;
   }
   .about .about__container .about__title-wrapper {
     grid-area: title;
@@ -243,6 +257,11 @@
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   border: 1px solid #D9BEA5;
+  transition: 0.6s ease-out;
+}
+.contact .contact__button:hover {
+  background: #D9BEA5;
+  color: #2C2A2A;
 }
 
 .footer {
@@ -260,6 +279,10 @@
   margin: 0.3rem;
   border-radius: 50%;
   color: #D9BEA5;
+}
+.footer .footer__socials .footer__socials-icon:hover {
+  background: #2C2A2A;
+  cursor: pointer;
 }
 
 * {
